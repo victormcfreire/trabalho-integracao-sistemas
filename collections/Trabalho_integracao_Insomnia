@@ -1,0 +1,271 @@
+type: spec.insomnia.rest/5.0
+name: APIs Trabalho Unifor
+meta:
+  id: wrk_c02b1b3d80ea4ecc8df5f9921f4ad8d2
+  created: 1752599391606
+  modified: 1755994390650
+  description: ""
+collection:
+  - url: http://localhost:3000/turnos-coleta
+    name: Turnos de Coleta
+    meta:
+      id: req_f97d28f212bb41b1b3ab9493247e57ce
+      created: 1698087441451
+      modified: 1759176598033
+      isPrivate: false
+      description: ""
+      sortKey: -1698087441451
+    method: GET
+    body:
+      mimeType: application/json
+      text: ""
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_aa2db0df828b4829932903284cab4a41
+    authentication:
+      type: bearer
+      token: "{{ _.token }}"
+      disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3000/docs
+    name: Documentação
+    meta:
+      id: req_5873db997ae54486bdc74a691fdeb6cf
+      created: 1755994984842
+      modified: 1758904811014
+      isPrivate: false
+      description: ""
+      sortKey: -1755994984842
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3000/pontos-coleta
+    name: Pontos de Coleta
+    meta:
+      id: req_229d171baf004c169f1255a91a8a2593
+      created: 1756138419622
+      modified: 1759176570083
+      isPrivate: false
+      description: ""
+      sortKey: -1755993586497.5
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.3.0
+    authentication:
+      type: bearer
+      token: "{{ _.token }}"
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3000/turnos-coleta?turno=DIURNO
+    name: Turnos de Coleta Com Filtro
+    meta:
+      id: req_d887aba92dbc418f9e588d7ad6c5a203
+      created: 1758898439557
+      modified: 1759177447309
+      isPrivate: false
+      description: ""
+      sortKey: -1698087441401
+    method: GET
+    body:
+      mimeType: application/json
+      text: ""
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_aa2db0df828b4829932903284cab4a41
+    authentication:
+      type: bearer
+      token: "{{ _.token }}"
+      disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3000/qualidade-ar
+    name: Qualidade do Ar em Fortaleza
+    meta:
+      id: req_bc0b5b7c4fb1485f9d10ffe921841cc0
+      created: 1758898492317
+      modified: 1758898519635
+      isPrivate: false
+      description: ""
+      sortKey: -1758898492317
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3000/clima
+    name: Clima em Fortaleza
+    meta:
+      id: req_e5f7afdc77c44e33823ed068f9364e0e
+      created: 1758898842658
+      modified: 1758898847635
+      isPrivate: false
+      description: ""
+      sortKey: -1757446738579.5
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3000/register
+    name: Registrar
+    meta:
+      id: req_a0d5755d4879441792b9153473f9e968
+      created: 1758904711533
+      modified: 1758904762007
+      isPrivate: false
+      description: ""
+      sortKey: -1758904711533
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "username": "usuario_exemplo",
+          "password": "senha123",
+          "email": "usuario@example.com"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3000/login
+    name: Login
+    meta:
+      id: req_f61b6ad158d045a0aa8e768983df8788
+      created: 1758904782000
+      modified: 1758907100586
+      isPrivate: false
+      description: ""
+      sortKey: -1758901601925
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "username": "usuario_exemplo",
+          "password": "senha123"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3000/logout
+    name: Logout
+    meta:
+      id: req_b9b16d5c89e848f0a36a0b0bcac7bc11
+      created: 1758904853508
+      modified: 1758906288571
+      isPrivate: false
+      description: ""
+      sortKey: -1758900047121
+    method: POST
+    body:
+      mimeType: application/json
+      text: ""
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.3.0
+    authentication:
+      type: bearer
+      token: "{{ _.token }}"
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_aa2f54596aee4fcabce4930b3bdd81bb
+    created: 1655833349856
+    modified: 1756138188343
+environments:
+  name: Base Environment
+  meta:
+    id: env_f13e9ab9a44b4d29a14726d0ded15f70
+    created: 1655833349851
+    modified: 1758906488354
+    isPrivate: false
+  data:
+    token: "{% response 'body', 'req_f61b6ad158d045a0aa8e768983df8788',
+      'b64::JC5zZXNzaW9uVG9rZW4=::46b', 'never', 60 %}"
+spec:
+  meta:
+    id: spc_28441196d1d34296a395b8b423836ee0
+    created: 1752599391615
+    modified: 1755994390648
+testSuites:
+  - name: Example Test Suite
+    meta:
+      id: uts_152cbaf83da04f21a4dde537d5bf01d9
+      created: 1655833349864
+      modified: 1655833349864
+      sortKey: -1752599391677
