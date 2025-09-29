@@ -146,3 +146,53 @@ Todas as respostas de erro seguem o formato:
   "error": "Mensagem descritiva do erro"
 }
 ```
+
+# Relação com ODS 11 - Cidades e Comunidades Sustentáveis
+
+## Alinhamento com a Agenda 2030 da ONU
+
+O projeto **EcoMapa Fortaleza** está diretamente alinhado com o **Objetivo de Desenvolvimento Sustentável 11** da ONU, que visa "tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e sustentáveis".
+
+## Metas Específicas Atendidas
+
+### Meta 11.6
+**"Até 2030, reduzir o impacto ambiental negativo per capita das cidades, inclusive prestando especial atenção à qualidade do ar, gestão de resíduos municipais e outros"**
+
+- **Gestão de Resíduos**: Sistema centralizado de informações sobre pontos de coleta
+- **Qualidade do Ar**: Integração com dados de poluição atmosférica em tempo real
+- **Conscientização**: Educação ambiental através de tecnologia acessível
+
+### Meta 11.3
+**"Até 2030, aumentar a urbanização inclusiva e sustentável"**
+
+- **Acessibilidade**: Interface multiplataforma para todos os cidadãos
+- **Participação Social**: Ferramenta que engaja a população na gestão urbana
+- **Transparência**: Dados abertos sobre infraestrutura de coleta
+
+## Impacto na Sustentabilidade Urbana
+
+### Redução de Impactos Ambientais
+- Diminuição do descarte inadequado de resíduos
+- Prevenção de alagamentos por obstrução de bueiros
+- Redução da proliferação de doenças e insetos
+
+### Cidades Mais Inteligentes
+- Digitalização dos serviços de limpeza urbana
+- Otimização de rotas de coleta através de dados georreferenciados
+- Integração de informações ambientais em uma única plataforma
+
+### Inclusão Social
+- Acesso gratuito à informação para todos os cidadãos
+- Ferramenta disponível em múltiplas plataformas
+- Linguagem acessível e interface intuitiva
+
+## Contribuição para Fortaleza Sustentável
+
+O EcoMapa Fortaleza representa um passo concreto em direção à:
+- **Gestão pública mais eficiente**
+- **Participação cidadã ativa**
+- **Monitoramento ambiental contínuo**
+- **Transição para economia circular**
+
+*"Tecnologia a serviço de cidades mais limpas, saudáveis e sustentáveis"*
+
