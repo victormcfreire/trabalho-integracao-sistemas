@@ -2,10 +2,12 @@ import express from "express";
 import routes from "./routes/index.js";
 import swaggerUi from "swagger-ui-express";
 import swaggerSpec from "../swagger.js";
+import cors from "cors";
 
 const app = express();
 
 // Middleware para interpretar JSON no body
+app.use(cors());
 app.use(express.json());
 
 // Rotas da API
