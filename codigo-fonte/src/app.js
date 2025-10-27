@@ -1,7 +1,7 @@
 import express from "express";
 import routes from "./routes/index.js";
 import swaggerUi from "swagger-ui-express";
-import swaggerSpec from "../..swagger.js";
+import swaggerSpec from "..swagger.js";
 import cors from "cors";
 
 const app = express();
